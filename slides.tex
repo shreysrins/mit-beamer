@@ -6,15 +6,25 @@
 % \pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
 
 \usepackage{amsmath,amssymb,enumerate,epsfig,bbm,calc,color,ifthen,capt-of}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usetikzlibrary{arrows.meta}
 
 \usetheme{Berlin}
 \usecolortheme{mit}
 
 \title{Technical Standards and Measurement}
 \author{Oliver Reed Smoot}
+\institute[]{Massachusetts Institute of Technology}
 \date{\today}
 \pgfdeclareimage[height=0.5cm]{mit-logo}{mit-logo.pdf}
 \logo{\pgfuseimage{mit-logo}\hspace*{0.3cm}}
+
+\setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{headline}{}
+
+\setbeamerfont{footnote}{size=\tiny}
 
 \AtBeginSection[]
 {
@@ -23,7 +33,7 @@
     \tableofcontents[currentsection]
   \end{frame}
 }
-\beamerdefaultoverlayspecification{<+->}
+%\beamerdefaultoverlayspecification{<+->}
 % -----------------------------------------------------------------------------
 \begin{document}
 % -----------------------------------------------------------------------------
