@@ -15,7 +15,7 @@ Install:
 Install is simply downloading the code from github. Here we install mit-beamer to $HOME/mit-beamer::
 
     $ cd $HOME
-    $ git clone http://github.com/jtriley/mit-beamer.git
+    $ git clone http://github.com/shreysrins/mit-beamer.git
 
 Generating the presentation:
 ----------------------------
